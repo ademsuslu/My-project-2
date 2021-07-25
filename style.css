@@ -1,0 +1,133 @@
+ /* font ailesini imprt ettik*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif; /* font verdik*/
+    background-color: #FCFCFC; /* arka plan rengi verdik */ 
+    background-image: url(day50-pirahna.png);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.navbar{
+    background-color: #E4EFEF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* göleleme ekledik */
+    display: flex;
+    height: 100px;
+}
+.logo{
+    width: 90px;
+    height: 70px;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.navbar li{
+    margin: 20px; /* boşluk bıraktık */
+    display: inline-block; /* yan yana aldık */ 
+    position: relative;
+    left: 700px; /* listeyi sağ tarfa kaydırdıl */ 
+    top: 30px;
+   
+}
+.navbar li a{
+  
+    text-decoration: none;
+    font-size: 20px;
+    color: #2F273A;
+}
+.navbar li a:hover{
+    
+    text-decoration:underline ;
+    text-decoration-style:double ;
+    text-decoration-color: #23AFAB;
+}
+.navbar .home:hover{
+    transition: all .5s ease;
+    background-color:#5FD6D0;
+    color: #049448;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar .about:hover{
+    transition: all .5s ease;
+    background-color:#5FD6D0;
+    color: #049448;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar .contact:hover{
+    transition: all .5s ease;
+    background-color:#5FD6D0;
+    color: #049448;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar .service:hover{
+    transition: all .5s ease;
+    background-color:#5FD6D0;
+    color: #049448;
+    padding: 10px;
+    border-radius: 10px;
+}
+.entry{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+}
+.title{
+    color: #042867;
+    font-size: 60px;
+    font-weight: 200;
+    position: relative;
+    
+    top:90px;
+    
+}
+.moon{
+    background-color: #FCFCFC;
+    position: relative;
+    left: 950px;
+    top: 350px;
+    width:350px; /* düzelt */
+    border-radius: 120px;
+}
+.btn{
+    position: relative;
+    top: 40px;
+    left: 950px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #4DC1C4;
+    border-radius: 90px;
+    
+    
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition-duration: 300ms;
+}
+.scroll{
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    left: 950px;
+    width: 150px;
+    height: 400px;
+    font-size: 25px;
+    color: black;
+    background-color: #4DC1C4;
+    border-radius: 900px;
+    padding: 10px ;
+    
+
+}
+
+.scroll:hover{
+    transition: all .5s ease;
+   font-size: 30px;
+   background-color: teal;
+   
+}
